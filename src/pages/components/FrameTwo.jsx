@@ -66,7 +66,7 @@ function FrameTwo() {
         </div>
       </div>
 
-      <div className="flex justify-evenly space-x-2 lg:space-x-5 ">
+      <div className="flex justify-evenly space-x-2 lg:space-x-5 overflow-hidden">
         {visibleItems.map((item, index) => (
           <div
             className="w-[220px] h-[220px] lg:w-[350px] lg:h-[350px] xl:w-[350px] xl:h-[350px] bg-[#17245B] rounded-2xl"
