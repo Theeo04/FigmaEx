@@ -51,7 +51,7 @@ function FrameTwo() {
     <div className="container mx-auto p-4">
       <div className="flex justify-between mt-5 mb-5">
         <h1 className="text-gray-700 font-semibold text-[20px] lg:2xl:text-[35px] lg:2xl:ml-[80px] font-raleway capitalize">
-          Explore Our Platform's Unique Features
+          Explore Our Platform&rsquo;s Unique Features
         </h1>
         <div className="flex justify-between space-x-10 items-center mb-6 ">
           <button onClick={handlePrev} disabled={startIndex === 0}>

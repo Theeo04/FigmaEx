@@ -9,8 +9,8 @@ function FrameOne() {
             Discover Top Tech Professionals in Minutes.
           </p>
           <p className="w-[300px] font-[300] text-[18px] tracking-[1px] text-white font-poppins text-xs pt-[15px] leading-6 xl:2xl:w-[420px]">
-            Streamline Your Business Needs with Ricoz's All-in-One Tech Service
-            Hub.
+            Streamline Your Business Needs with Ricoz&rsquo;s All-in-One Tech
+            Service Hub.
           </p>
           <button className="w-[171px] h-[55px] bg-[#0030FF] rounded-3xl text-white font-[600] mt-[20px] xl:2xl:mt-[35px]">
             Get Started
