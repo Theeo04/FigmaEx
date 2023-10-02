@@ -66,24 +66,24 @@ function FrameTwo() {
         </div>
       </div>
 
-      <div className="flex justify-evenly space-x-2 ">
+      <div className="flex justify-evenly space-x-2 lg:space-x-5 ">
         {visibleItems.map((item, index) => (
           <div
-            className="w-[360px] h-[362px] bg-[#17245B] rounded-2xl"
+            className="w-[220px] h-[220px] lg:w-[350px] lg:h-[350px] xl:w-[350px] xl:h-[350px] bg-[#17245B] rounded-2xl"
             key={index}
           >
             <img
               src={item.src}
               alt={item.title}
-              className="rounded-xl mt-[58px] ml-[50px] mb-[18px] w-[40px] h-[40px] bg-white"
+              className="rounded-xl mt-[10px] ml-[10px] mb-[10px] w-[30px] h-[30px] lg:h-[45px] lg:w-[45px] bg-white lg:ml-[20px] lg:mt-[20px]"
             />
 
-            <h2 className="ml-[50px] text-lg font-semibold text-white font-raleway capitalize">
+            <h2 className="ml-[10px] lg:ml-[20px] text-[17px] lg:text-[26px] font-semibold text-white font-raleway capitalize">
               {item.title}
             </h2>
 
-            <div className="w-[330px]">
-              <p className="ml-[50px] text-white font-light text-[20px] font-poppins mt-3">
+            <div className="w-[200px] lg:w-[300px] xl:w-[320px]">
+              <p className="ml-[10px] lg:ml-[20px] lg:text-[25px] text-white font-light text-[16px] font-poppins mt-3">
                 {item.content}
               </p>
             </div>
